@@ -49,15 +49,15 @@ The output of the model is a predicted pricing range category for each Airbnb li
 
 - **Diffrent languages**: the text column contains text different languageColumns (or Features) that contain text with different language.
 
-- **Images size**: Dealing with images in diffrent sizesDealing with images in diffrent sizes.
+- **Images size**: Dealing with images in diffrent sizes.
 
-- **Multi-modality**, combining different types of inputs in a single model.
+- **Multi-modality**: combining different types of inputs in a single model.
 
-- **Overfitting**, preventing the model from fitting noise in the training data.
+- **Overfitting**: preventing the model from fitting noise in the training data.
 
-- **Model complexity**, selecting the appropriate architecture and hyperparameters.
+- **Model complexity**: selecting the appropriate architecture and hyperparameters.
 
-- **Interpretability**, understanding the model's predictions and important features.
+- **Interpretability**: understanding the model's predictions and important features.
 
 
 Addressing these challenges requires careful consideration of the data, model architecture, and hyperparameters, as well as the use of appropriate evaluation metrics and techniques for model interpretation and explanation.
@@ -85,7 +85,7 @@ Overall, the impact of building a machine learning model for predicting the pric
 ## **Ideal Solution:**
 
 - Best accuracy in leaderboard is 0.62934. It is produced by LSTM and CNN (model3) without using transfer learning.
-- I traied RGB images but it doesn't improve the accuracy.
+- I traied RGB images but it didn't improve the accuracy.
 - I traied 'sgd' optimizer with the simple model (model1), but the accuracy decresed on leaderboard sharply (0.4682)
 - Simple RNN didn't produce bad performance.
 
